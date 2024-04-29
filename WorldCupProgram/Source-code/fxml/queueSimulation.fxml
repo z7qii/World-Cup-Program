@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import java.util.ArrayList?>
+<!-- <?import java.util.ArrayList?> -->
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="598.0" prefWidth="877.0" styleClass="transparent" stylesheets="@../Design/style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.simulationController">
+   <children>
+      <AnchorPane layoutX="241.0" layoutY="92.0" prefHeight="382.0" prefWidth="434.0">
+         <children>
+            <VBox layoutY="84.0" prefHeight="303.0" prefWidth="454.0" spacing="20.0">
+               <children>
+                  <HBox prefHeight="26.0" prefWidth="494.0" spacing="25.0">
+                     <children>
+                        <Label fx:id="A1Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="A2Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="A3Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="A4Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="A5Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="A6Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="26.0" prefWidth="494.0" spacing="25.0">
+                     <children>
+                        <Label fx:id="B1Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="B2Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="B3Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="B4Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="B5Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="B6Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="26.0" prefWidth="494.0" spacing="25.0">
+                     <children>
+                        <Label fx:id="C1Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="C2Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="C3Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="C4Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="C5Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="C6Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+                  <HBox prefHeight="26.0" prefWidth="494.0" spacing="25.0">
+                     <children>
+                        <Label fx:id="D1Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="D2Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="D3Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="D4Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="D5Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="D6Col" prefHeight="0.0" prefWidth="54.0" text="-">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </HBox>
+               </children>
+            </VBox>
+         </children>
+      </AnchorPane>
+      <VBox layoutX="207.0" layoutY="174.0" prefHeight="214.0" prefWidth="34.0" spacing="20.0">
+         <children>
+            <Label prefHeight="0.0" prefWidth="54.0" text="|A">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label prefHeight="0.0" prefWidth="54.0" text="|B">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label prefHeight="0.0" prefWidth="54.0" text="|C">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label prefHeight="0.0" prefWidth="54.0" text="D">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="96.0" layoutY="370.0" prefHeight="0.0" prefWidth="54.0" text="E2">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <VBox layoutX="679.0" layoutY="178.0" prefHeight="214.0" prefWidth="34.0" spacing="20.0">
+         <children>
+            <Label prefHeight="0.0" prefWidth="54.0">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label prefHeight="0.0" prefWidth="54.0" text="|">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label prefHeight="0.0" prefWidth="54.0" text="|">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+            <Label prefHeight="0.0" prefWidth="54.0" text="|">
+               <font>
+                  <Font size="30.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="696.0" layoutY="174.0" prefHeight="0.0" prefWidth="54.0" text="E1">
+         <font>
+            <Font size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="145.0" layoutY="20.0" prefHeight="30.0" prefWidth="157.0" text="Ticket sold forE1:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="144.0" layoutY="67.0" prefHeight="30.0" prefWidth="158.0" text="Ticket sold forE2:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="entrence1" layoutX="201.0" layoutY="468.0" prefHeight="46.0" prefWidth="534.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="476.0" prefHeight="0.0" prefWidth="126.0" text="Queue at E1:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="entrence2" layoutX="200.0" layoutY="514.0" prefHeight="46.0" prefWidth="534.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="68.0" layoutY="522.0" prefHeight="0.0" prefWidth="126.0" text="Queue at E2:">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="TicketsSoldatE1" layoutX="315.0" layoutY="20.0" prefHeight="30.0" prefWidth="534.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Label fx:id="TicketsSoldatE2" layoutX="315.0" layoutY="67.0" prefHeight="30.0" prefWidth="534.0">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+      <Button fx:id="button_back" layoutX="-6.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="95.0" style="-fx-background-color: #FED700; -fx-cursor: hand;" text="back">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btn_serve" layoutX="390.0" layoutY="552.0" mnemonicParsing="false" prefHeight="44.0" prefWidth="95.0" style="-fx-background-color: #FED700; -fx-cursor: hand;" text="Serve">
+         <font>
+            <Font name="Arial Rounded MT Bold" size="18.0" />
+         </font>
+      </Button>
+   </children>
+   <!-- <fx:define>
+        <ArrayList fx:id="TicketSoldatE1">
+            <fx:reference source="E1" />
+            <fx:reference source="E2" />
+            <fx:reference source="E3" />
+            <fx:reference source="E4" />
+            <fx:reference source="E5" />
+            <fx:reference source="E6" />
+            <fx:reference source="F1" />
+            <fx:reference source="F2" />
+            <fx:reference source="F3" />
+            <fx:reference source="F4" />
+            <fx:reference source="F5" />
+            <fx:reference source="F6" />
+            
+        </ArrayList>
+    </fx:define> -->
+    <!-- <fx:define>
+        <ArrayList fx:id="TicketSoldatE2">
+            <fx:reference source="G1" />
+            <fx:reference source="G2" />
+            <fx:reference source="G3" />
+            <fx:reference source="G4" />
+            <fx:reference source="G5" />
+            <fx:reference source="G6" />
+            <fx:reference source="H1" />
+            <fx:reference source="H2" />
+            <fx:reference source="H3" />
+            <fx:reference source="H4" />
+            <fx:reference source="H5" />
+            <fx:reference source="H6" />
+            
+        </ArrayList>
+    </fx:define> -->
+    <fx:define>
+        <ArrayList fx:id="columnsContainer">
+            <fx:reference source="A1Col" />
+            <fx:reference source="A2Col" />
+            <fx:reference source="A3Col" />
+            <fx:reference source="A4Col" />
+            <fx:reference source="A5Col" />
+            <fx:reference source="A6Col" />
+            <fx:reference source="B1Col" />
+            <fx:reference source="B2Col" />
+            <fx:reference source="B3Col" />
+            <fx:reference source="B4Col" />
+            <fx:reference source="B5Col" />
+            <fx:reference source="B6Col" />
+            <fx:reference source="C1Col" />
+            <fx:reference source="C2Col" />
+            <fx:reference source="C3Col" />
+            <fx:reference source="C4Col" />
+            <fx:reference source="C5Col" />
+            <fx:reference source="C6Col" />
+            <fx:reference source="D1Col" />
+            <fx:reference source="D2Col" />
+            <fx:reference source="D3Col" />
+            <fx:reference source="D4Col" />
+            <fx:reference source="D5Col" />
+            <fx:reference source="D6Col" />
+            
+        </ArrayList>
+    </fx:define>
+    <!-- <fx:define>
+        <ArrayList fx:id="TicketSoldatE1">
+            <fx:reference source="C1" />
+            <fx:reference source="C2" />
+            <fx:reference source="C3" />
+            <fx:reference source="C4" />
+            <fx:reference source="C5" />
+            <fx:reference source="C6" />
+            <fx:reference source="D1" />
+            <fx:reference source="D2" />
+            <fx:reference source="D3" />
+            <fx:reference source="D4" />
+            <fx:reference source="D5" />
+            <fx:reference source="D6" />
+            
+        </ArrayList>
+    </fx:define> -->
+</AnchorPane>
