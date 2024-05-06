@@ -94,7 +94,7 @@ public abstract class User {                        // this class is the super c
         ResultSet resultSet = null;
 
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             preparedStatement = connection.prepareStatement("SELECT * FROM " + userType + " WHERE email = ?");
             preparedStatement.setString(1, email);
             resultSet = preparedStatement.executeQuery();
