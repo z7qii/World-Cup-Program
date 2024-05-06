@@ -37,7 +37,7 @@ CREATE TABLE `staff` (
 
 LOCK TABLES `staff` WRITE;
 /*!40000 ALTER TABLE `staff` DISABLE KEYS */;
-INSERT INTO `staff` VALUES (110,'zayed','zayed@staff.com','Uvhrkh12-'),(111,'alassaf','alassaf@staff.com','Uvhrkh12-');
+INSERT INTO `staff` VALUES (110,'zayed','zayed@staff.com','Zayeddd77-'),(111,'alassaf','alassaf@staff.com','Zayeddd77-');
 /*!40000 ALTER TABLE `staff` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
