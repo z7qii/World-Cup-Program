@@ -37,7 +37,7 @@ public class Customer extends User {
         ResultSet resultSet = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             psCheckUserExists = connection.prepareStatement("SELECT * FROM customers WHERE email = ?");
             psCheckUserExists.setString(1, super.getEmail());
             resultSet = psCheckUserExists.executeQuery();
@@ -77,7 +77,7 @@ public class Customer extends User {
         ResultSet resultSet = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             preparedStatement = connection.prepareStatement("SELECT * FROM " + choosenMatch + " WHERE seatID = ?");
             preparedStatement.setString(1, seatID);
             
@@ -117,7 +117,7 @@ public class Customer extends User {
         ResultSet resultSet = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             
             preparedStatement = connection.prepareStatement("UPDATE " + choosenMatch + " SET cusName = ? , cusEmail = ?  WHERE seatID = ?");
             preparedStatement.setString(1, super.getName());
@@ -147,7 +147,7 @@ public class Customer extends User {
         ResultSet resultSet = null;
 
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             preparedStatement = connection.prepareStatement("SELECT seatPrice FROM " + choosenMatch + " WHERE seatID = ?");
             preparedStatement.setString(1, seatID);
             resultSet = preparedStatement.executeQuery();
