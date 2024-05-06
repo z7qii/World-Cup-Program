@@ -36,7 +36,7 @@ CREATE TABLE `customers` (
 
 LOCK TABLES `customers` WRITE;
 /*!40000 ALTER TABLE `customers` DISABLE KEYS */;
-INSERT INTO `customers` VALUES ('alassaf','alassaf@gmail.com','Uvhrkh12-'),('mayoof','mayoof@gmail.com','Uvhrkh12-'),('zayed','zayed@gmail.com','Uvhrkh12-');
+INSERT INTO `customers` VALUES ('alassaf','alassaf@gmail.com','Alassaf121-'),('mayoof','mayoof@gmail.com','Zayed121-'),('zayed','zayed@gmail.com','Zayed121-');
 /*!40000 ALTER TABLE `customers` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
