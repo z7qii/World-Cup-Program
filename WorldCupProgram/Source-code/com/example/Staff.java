@@ -27,7 +27,7 @@ public class Staff extends User {
         ResultSet resultSet = null;
 
         try {
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             preparedStatement = connection.prepareStatement("SELECT * FROM " + choosenMatch );
         
             resultSet = preparedStatement.executeQuery();
@@ -69,7 +69,7 @@ public class Staff extends User {
         ResultSet resultSet = null;
        
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             preparedStatement = connection.prepareStatement("SELECT COUNT(*) FROM " + matchID);
           
             resultSet = preparedStatement.executeQuery();
@@ -103,7 +103,7 @@ public class Staff extends User {
         ResultSet resultSet = null;
         
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             preparedStatement = connection.prepareStatement("SELECT COUNT(*) FROM " + matchID + " WHERE cusEmail != ?");
              preparedStatement.setString(1, "Empty");
             resultSet = preparedStatement.executeQuery();
@@ -137,7 +137,7 @@ public class Staff extends User {
         ResultSet resultSet = null;
         
         try{
-            connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/Assignment_1", "root", "uvhrkh12");
+            connection = DriverManager.getConnection("URL");
             preparedStatement = connection.prepareStatement("select seatPrice FROM " + matchID + " WHERE cusEmail != ?");
              preparedStatement.setString(1, "Empty");
             resultSet = preparedStatement.executeQuery();
